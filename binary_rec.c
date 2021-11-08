@@ -1,7 +1,7 @@
 #include<stdio.h>
 int binary_search(int [],int,int,int );
 int main(){
-         int a[50],n,i,ans,keylow,high;
+         int a[50],n,i,ans,key,low,high;
          printf("enter array size:");
          scanf("%d",&n);
          printf("enter array elements");
