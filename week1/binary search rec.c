@@ -25,10 +25,12 @@ int binary_search(int a[],int low,int high,int key){
    mid = (low+high)/2;
    if(key == a[mid]){
         return mid;
-   }else if(key > a[mid]){
-        binary_search(a,mid+1,high,key);
-    }else{
-        binary_search(a,low,mid-1,key);
+   }
+    else if(key > a[mid]){
+        return  binary_search(a,mid+1,high,key);
+    }
+    else{
+        return binary_search(a,low,mid-1,key);
 }
 }
 /*
