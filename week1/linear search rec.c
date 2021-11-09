@@ -23,7 +23,7 @@ int main(){
         if(ans == -1)
           printf("element not found");
         else
-          printf("element found at %d",ans);
+          printf("element found at %d position",ans);
 }
 /*
 output1:
@@ -35,4 +35,4 @@ output2:
 enter array size:4
 enter array elements 1 3 6 7
 enter element to be found 8
-element not found 
+element not found */
