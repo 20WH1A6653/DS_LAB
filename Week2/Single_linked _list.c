@@ -141,7 +141,7 @@ struct node* sorting(struct node *head){
  temp1 = temp;
  } 
 return head;
- 
+ }
 int main(){
  struct node * head; 
  int ele,ch,pos,key;
@@ -193,7 +193,189 @@ int main(){
  } 
 } 
 
- 
- 
+Output:
+Case 1:1-create()
+ 2-insert at begin
+ 3-insert at end
+ 4- insert at pos
+ 5-display
+ 6-delete at begin
+ 7-delete at end
+ 8-delete at pos
+ 9-reverse display
+ 10-search
+ 11-sort
+ 12-exit
+enter your choise
+1
+Enter the total number of nodes
+4
+enter the value to be inserted in the node
+1
+enter the value to be inserted in the node
+2
+enter the value to be inserted in the node
+3
+enter the value to be inserted in the node
+4
+Case 2.1-create()
+ 2-insert at begin
+ 3-insert at end
+ 4- insert at pos
+ 5-display
+ 6-delete at begin
+ 7-delete at end
+ 8-delete at pos
+ 9-reverse display
+ 10-search
+ 11-sort
+ 12-exit
+enter your choise
+2
+enter the value to be inserted
+6
+Case 3.1-create()
+ 2-insert at begin
+ 3-insert at end
+ 4- insert at pos
+ 5-display
+ 6-delete at begin
+ 7-delete at end
+ 8-delete at pos
+ 9-reverse display
+ 10-search
+ 11-sort
+ 12-exit
+enter your choise
+3
+enter the value to be inserted
+7
+Case 4.1-create()
+ 2-insert at begin
+ 3-insert at end
+ 4- insert at pos
+ 5-display
+ 6-delete at begin
+ 7-delete at end
+ 8-delete at pos
+ 9-reverse display
+ 10-search
+ 11-sort
+ 12-exit
+enter your choise
+4
+enter the value and position
+ 3
+3
+Case 5.1-create()
+ 2-insert at begin
+ 3-insert at end
+ 4- insert at pos
+ 5-display
+ 6-delete at begin
+ 7-delete at end
+ 8-delete at pos
+ 9-reverse display
+ 10-search
+ 11-sort
+ 12-exit
+enter your choise
+5
+6 -> 1 -> 3 -> 2 -> 3 -> 4 -> 7
+Case 6.1-create()
+ 2-insert at begin
+ 3-insert at end
+ 4- insert at pos
+ 5-display
+ 6-delete at begin
+ 7-delete at end
+ 8-delete at pos
+ 9-reverse display
+ 10-search
+ 11-sort
+ 12-exit
+enter your choise
+6
+deleted element is:6
+Case 7.1-create()
+ 2-insert at begin
+ 3-insert at end
+ 4- insert at pos
+ 5-display
+ 6-delete at begin
+ 7-delete at end
+ 8-delete at pos
+ 9-reverse display
+ 10-search
+ 11-sort
+ 12-exit
+enter your choise
+7
+deleted element is:7
+Case 8.1-create()
+ 2-insert at begin
+ 3-insert at end
+ 4- insert at pos
+ 5-display
+ 6-delete at begin
+ 7-delete at end
+ 8-delete at pos
+ 9-reverse display
+ 10-search
+ 11-sort
+ 12-exit
+enter your choise
+8
+enter the position
+3
+deleted element 2
+Case 9.1-create()
+ 2-insert at begin
+ 3-insert at end
+ 4- insert at pos
+ 5-display
+ 6-delete at begin
+ 7-delete at end
+ 8-delete at pos
+ 9-reverse display
+ 10-search
+ 11-sort
+ 12-exit
+enter your choise
+9
+4 3 3 1
+Case 10.1-create()
+ 2-insert at begin
+ 3-insert at end
+ 4- insert at pos
+ 5-display
+ 6-delete at begin
+ 7-delete at end
+ 8-delete at pos
+ 9-reverse display
+ 10-search
+ 11-sort
+ 12-exit
+enter your choise
+10
+enter the key value to be searched
+1
+element found at 1
+Case 11.1-create()
+ 2-insert at begin
+ 3-insert at end
+ 4- insert at pos
+ 5-display
+ 6-delete at begin
+ 7-delete at end
+ 8-delete at pos
+ 9-reverse display
+ 10-search
+ 11-sort
+ 12-exit
+enter your choise
+11
+1 3 3 4
+
  
  
