@@ -140,6 +140,7 @@ struct node* sorting(struct node *head){
  }
  temp1 = temp;
  } 
+return head;
  
 int main(){
  struct node * head; 
