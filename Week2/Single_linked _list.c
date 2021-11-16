@@ -147,7 +147,7 @@ int main(){
  int ele,ch,pos,key;
  while(1){
  printf("\n1-create()\n 2-insert at begin\n 3-insert at end\n 4- insert at pos\n 5-display \n 6-delete at begin \n 7-delete at end \n 8-delete at pos \n 9-reverse display\n 10-search\n 11-sort\n 12-exit \n");
- printf("enter your choise\n");
+ printf("enter your choice\n");
  scanf("%d",&ch);
  switch(ch){
  case 1: head = create();
@@ -206,7 +206,7 @@ Case 1:1-create()
  10-search
  11-sort
  12-exit
-enter your choise
+enter your choice
 1
 Enter the total number of nodes
 4
@@ -230,7 +230,7 @@ Case 2.1-create()
  10-search
  11-sort
  12-exit
-enter your choise
+enter your choice
 2
 enter the value to be inserted
 6
@@ -246,7 +246,7 @@ Case 3.1-create()
  10-search
  11-sort
  12-exit
-enter your choise
+enter your choice
 3
 enter the value to be inserted
 7
@@ -262,7 +262,7 @@ Case 4.1-create()
  10-search
  11-sort
  12-exit
-enter your choise
+enter your choice
 4
 enter the value and position
  3
@@ -279,7 +279,7 @@ Case 5.1-create()
  10-search
  11-sort
  12-exit
-enter your choise
+enter your choice
 5
 6 -> 1 -> 3 -> 2 -> 3 -> 4 -> 7
 Case 6.1-create()
@@ -294,7 +294,7 @@ Case 6.1-create()
  10-search
  11-sort
  12-exit
-enter your choise
+enter your choice
 6
 deleted element is:6
 Case 7.1-create()
@@ -309,7 +309,7 @@ Case 7.1-create()
  10-search
  11-sort
  12-exit
-enter your choise
+enter your choice
 7
 deleted element is:7
 Case 8.1-create()
@@ -324,7 +324,7 @@ Case 8.1-create()
  10-search
  11-sort
  12-exit
-enter your choise
+enter your choice
 8
 enter the position
 3
@@ -341,7 +341,7 @@ Case 9.1-create()
  10-search
  11-sort
  12-exit
-enter your choise
+enter your choice
 9
 4 3 3 1
 Case 10.1-create()
@@ -356,7 +356,7 @@ Case 10.1-create()
  10-search
  11-sort
  12-exit
-enter your choise
+enter your choice
 10
 enter the key value to be searched
 1
@@ -373,9 +373,23 @@ Case 11.1-create()
  10-search
  11-sort
  12-exit
-enter your choise
+enter your choice
 11
-1 3 3 4
+1-create()
+ 2-insert at begin
+ 3-insert at end
+ 4- insert at pos
+ 5-display
+ 6-delete at begin
+ 7-delete at end
+ 8-delete at pos
+ 9-reverse display
+ 10-search
+ 11-sort
+ 12-exit
+enter your choice
+5
+1 -> 3 -> 3 -> 4
 
  
  
