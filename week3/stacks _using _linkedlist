@@ -115,3 +115,41 @@ enter your choice4
  5-exit 
 enter your choice
 5
+stack underflow condition:
+1-push 
+ 2-pop 
+ 3-peek 
+ 4-display 
+ 5-exit 
+enter your choice1
+enter element to be inserted10
+
+ 1-push 
+ 2-pop 
+ 3-peek 
+ 4-display 
+ 5-exit 
+enter your choice1
+enter element to be inserted20
+
+ 1-push 
+ 2-pop 
+ 3-peek 
+ 4-display 
+ 5-exit 
+enter your choice2
+deleted element is 20
+ 1-push 
+ 2-pop 
+ 3-peek 
+ 4-display 
+ 5-exit 
+enter your choice2
+deleted element is 10
+ 1-push 
+ 2-pop 
+ 3-peek 
+ 4-display 
+ 5-exit 
+enter your choice2
+stack underflow
