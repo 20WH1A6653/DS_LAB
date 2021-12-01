@@ -17,13 +17,9 @@ void push(int ele){
 } 
 int pop(){
  temp=top;
- if(top==NULL)
-     printf("stack underflow");
- else{
-     top=top->link;
-     return(temp->data);
-     free(temp);
- }
+ top=top->link;
+ return(temp->data);
+ free(temp);
 }
 int peek(){
     return(top->data);
@@ -46,7 +42,10 @@ case 1:printf("enter element");
        scanf("%d",&ele);
        push(ele);
        break;
-case 2:printf("deleted element is %d",pop());
+case 2:if(top==NULL)
+          printf("stack underflow");
+       else
+          printf("deleted element is %d",pop());
        break;
 case 3:if(top==NULL)
           printf("stack underflow");
@@ -59,9 +58,9 @@ case 4:if(top==NULL)
            display();
        break;
 case 5:exit(0);
-}
-}
-}
+   }
+  }
+ }
 output:
  1-push 
  2-pop 
